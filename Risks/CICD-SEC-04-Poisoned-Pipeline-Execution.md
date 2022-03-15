@@ -55,7 +55,7 @@ In the following example, a GitHub repository is connected with a GitHub Actions
 When new code is pushed to a remote branch in the repository, the code - including the pipeline configuration file - is fetched by the runner (the workflow node).
 
 
-```
+```YAML
 name: PIPELINE
 on: push
 jobs:
