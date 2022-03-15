@@ -30,7 +30,18 @@ This document helps defenders identify focus areas for securing their CI/CD ecos
 
 Numerous industry experts across multiple verticals and disciplines came together to collaborate on this document to ensure its relevance to today’s threat landscape, risk surface, and the challenges that defenders face in dealing with these risks.
 
-We would like to thank and acknowledge all experts which took part in reviewing and validating this document:
+We would like to thank and acknowledge all experts which took part in reviewing and validating this document.
+
+### Authors
+
+
+
+* [Daniel Krivelevich](https://twitter.com/Dkrivelev) (CTO @ Cider Security)
+* [Omer Gil](https://twitter.com/omer_gil) (Director of Research @ Cider Security)
+
+
+### Reviewers
+
 * [Iftach Ian Amit](https://twitter.com/iiamit) (Advisory CSO @ Rapid7)
 * [Jonathan Claudius](https://twitter.com/claudijd) (Director of Security Assurance @ Mozilla)
 * [Michael Coates](https://twitter.com/_mwc) (CEO & Co-Founder @ Altitude Networks, Former CISO @ Twitter)
