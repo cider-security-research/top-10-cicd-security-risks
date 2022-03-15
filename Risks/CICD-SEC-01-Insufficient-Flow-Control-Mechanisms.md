@@ -42,10 +42,13 @@ Establish pipeline flow control mechanisms to ensure that no single entity (huma
 
 
 1. Backdoor planted in the PHP git repository. The attackers pushed malicious unreviewed code directly to the PHP main branch, ultimately resulting in a formal PHP version being spread to all PHP websites.
+
     [https://news-web.php.net/php.internals/113981](https://news-web.php.net/php.internals/113981)
 
 2. Bypassing auto-merge rules in Homebrew, by [RyotaK](https://twitter.com/ryotkak). An auto-merge rule used to merge insignificant changes into the main branch was susceptible to bypass, allowing adversaries to merge malicious code into the project.
+
     [https://brew.sh/2021/04/21/security-incident-disclosure/](https://brew.sh/2021/04/21/security-incident-disclosure/)
 
 3. Bypassing required reviews using GitHub Actions, by [Omer Gil](https://twitter.com/omer_gil). The flaw allowed leveraging GitHub Actions to bypass the required reviews mechanism and push unreviewed code to a protected branch.
+
     [https://www.cidersecurity.io/blog/research/bypassing-required-reviews-using-github-actions/](https://www.cidersecurity.io/blog/research/bypassing-required-reviews-using-github-actions/)
