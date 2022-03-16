@@ -35,7 +35,6 @@ We would like to thank and acknowledge all experts which took part in reviewing 
 ### Authors
 
 
-
 * [Daniel Krivelevich](https://twitter.com/Dkrivelev) (CTO @ Cider Security)
 * [Omer Gil](https://twitter.com/omer_gil) (Director of Research @ Cider Security)
 
