@@ -52,3 +52,7 @@ Establish pipeline flow control mechanisms to ensure that no single entity (huma
 3. Bypassing required reviews using GitHub Actions, by [Omer Gil](https://twitter.com/omer_gil). The flaw allowed leveraging GitHub Actions to bypass the required reviews mechanism and push unreviewed code to a protected branch.
 
     [https://www.cidersecurity.io/blog/research/bypassing-required-reviews-using-github-actions/](https://www.cidersecurity.io/blog/research/bypassing-required-reviews-using-github-actions/)
+    
+4. Using incorrect git objects to render repository contents on GitLab creates a mismatch in expectations when the rendered file contents on GitLab do not correspond with the actual file contents in a repository clone.  Malicious code (hidden in plain sight) can be committed into projects, rendering flow control mechanisms mute including external verification techniques, which may lead to RCE on unsuspecting users or CI/CD systems.   
+
+    [https://gitlab.com/gitlab-org/gitaly/-/issues/3948](https://gitlab.com/gitlab-org/gitaly/-/issues/3948) 
