@@ -77,3 +77,7 @@ That said, all recommended controls share the same guiding principles -
 5. The _rc_ NPM library, with 14 million downloads a week, was hijacked to steal credentials.
 
     [https://github.com/advisories/GHSA-g2q5-5433-rhrf](https://github.com/advisories/GHSA-g2q5-5433-rhrf)
+    
+6. Gitlab Security Engineer creates a tool and scans Gitlab hosted Go modules for typosquatting attacks.  Observes malicious packages hijack system information and other sensitive data.
+
+    [https://michenriksen.com/blog/finding-evil-go-packages/](https://michenriksen.com/blog/finding-evil-go-packages/)
