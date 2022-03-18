@@ -8,7 +8,7 @@ The CI/CD attack surface consists of an organization’s organic assets, such as
 
 It is rare to find an organization which does not have numerous 3rd parties connected to its CI/CD systems and processes. Their ease of implementation, combined with their immediate value, has made 3rd parties an integral part of the engineering day-to-day. The methods of embedding or granting access to 3rd parties are becoming more diverse and the complexities associated with implementing them are diminishing.
 
-Taking a common SCM - GitHub SAAS - as en example, 3rd party applications can be connected through one or more of these 5 methods:
+Taking a common SCM - GitHub SaaS - as en example, 3rd party applications can be connected through one or more of these 5 methods:
 
 
 

@@ -26,7 +26,7 @@ The prevention of improper artifact integrity validation risks requires a collec
 * Implement processes and technologies to validate the integrity of resources all the way from development to production. When a resource is generated, the process will include signing that resource using an external resource signing infrastructure. Prior to consuming the resource in subsequent steps down the pipeline, the resource’s integrity should be validated against the signing authority. Some prevalent measures to consider in this context:
     * **Code signing** - SCM solutions provide the ability to sign commits using a unique key for each contributor. This measure can then be leveraged to prevent unsigned commits from flowing down the pipeline.
     * **Artifact verification software** - Usage of tools for signing and verification of code and artifacts provide a way to prevent unverified software from being delivered down the pipeline. An example for such a project is Sigstore, created by the Linux Foundation.
-    * **Configuration drift detection** - Measures aimed at detecting configuration drifts (e.g. resources in cloud environments which aren’t managed using a signed IAC template), potentially indicative of resources that were deployed by an untrusted source or process.
+    * **Configuration drift detection** - Measures aimed at detecting configuration drifts (e.g. resources in cloud environments which aren’t managed using a signed IaC template), potentially indicative of resources that were deployed by an untrusted source or process.
 * 3rd party resources fetched from build/deploy pipelines (such as scripts imported and executed as part of the build process) should follow a similar logic - prior to using 3rd party resources, the hash of the resource should be calculated and cross referenced against the official published hash of the resource provider. 
 
 
@@ -44,7 +44,7 @@ The prevention of improper artifact integrity validation risks requires a collec
 
     [https://about.codecov.io/security-update/](https://about.codecov.io/security-update/)
 
-3. Backdoor planted in the PHP git repository, ultimately resulting in a formal PHP version being spread to all PHP users. The attackers push malicious unreviewed code directly to the PHP main branch, committing the code as if it were made by known PHP contributors.
+3. Backdoor planted in the PHP git repository, ultimately resulting in a vulnerable PHP version being spread to all PHP users. The attackers push malicious unreviewed code directly to the PHP main branch, committing the code as if it were made by known PHP contributors.
 
     [https://news-web.php.net/php.internals/113981](https://news-web.php.net/php.internals/113981)
 

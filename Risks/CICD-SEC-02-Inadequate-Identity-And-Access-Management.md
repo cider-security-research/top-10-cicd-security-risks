@@ -15,7 +15,7 @@ Some of the major concerns and challenges around identity and access management 
 
 
 
-* **Overly permissive identities** - Maintaining the principle of least privilege for both applicative and humac accounts. For example, in SCMs - Ensuring each human and applicative identity has been granted only the permissions required and only against the actual repositories it needs to access is not trivial.
+* **Overly permissive identities** - Maintaining the principle of least privilege for both applicative and human accounts. For example, in SCMs - Ensuring each human and applicative identity has been granted only the permissions required and only against the actual repositories it needs to access is not trivial.
 * **Stale identities** - Employees/Systems that are not active and/or no longer require access but have not had their human and programmatic account against all CI/CD systems deprovisioned.
 * **Local identities** - Systems which do not have their access federated with a centralized IDP, creating identities that are managed locally within the system in question. Local accounts create challenges in enforcing consistent security policies (e.g. password policy, lockout policy, MFA) as well as properly deprovisioning access across all systems (for example, when an employee leaves the organization).
 * **External identities** - 
