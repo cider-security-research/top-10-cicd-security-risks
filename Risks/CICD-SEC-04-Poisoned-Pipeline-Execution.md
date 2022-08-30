@@ -223,3 +223,8 @@ Preventing and mitigating the PPE attack vector involves multiple measures spann
 7. A vulnerability found in Teleport’s CI implementation, that allowed attackers from the internet to execute a Direct-3PE attack by creating a pull request in a public GitHub repository linked with a Drone CI pipeline, and modifying the CI configuration file to execute a malicious pipeline.
 
     [https://goteleport.com/blog/hack-via-pull-request/](https://goteleport.com/blog/hack-via-pull-request/)
+
+8. This reseach shows that allowing a developer to make a 'simple' action called StartBuild (official description: "Starts running a build.") at AWS CodeBuild, can lead to an unexpected privilege escalation for the developer. The developer can abuse this action to 1) exfiltrate secrets from the pipeline, 2) poison the built artifact, and 3) run privileged commands on the deployment server. This can also happen when using 1) AWS managed IAM policies tageting the developer role for AWS CodePipeline and AWS CodeBuild, or 2) using AWS CodeStar as pipeline manager and its Contributor role.
+
+    [https://www.youtube.com/watch?v=McZBcMRxPTA](https://www.youtube.com/watch?v=McZBcMRxPTA)
+    [https://www.pwc.be/en/news-publications/2021/the-risk-of-ci-cd-pipeline-poisoning-via-codebuild-.html](https://www.pwc.be/en/news-publications/2021/the-risk-of-ci-cd-pipeline-poisoning-via-codebuild-.html)
