@@ -41,7 +41,7 @@ Establish pipeline flow control mechanisms to ensure that no single entity (huma
 
 
 
-1. Backdoor planted in the PHP git repository. The attackers pushed malicious unreviewed code directly to the PHP main branch, ultimately resulting in a formal PHP version being spread to all PHP websites.
+1. Backdoor planted in the PHP git repository. The attackers pushed malicious unreviewed code directly to the PHP main branch, ultimately resulting in a vulnerable PHP version being spread to all PHP websites.
 
     [https://news-web.php.net/php.internals/113981](https://news-web.php.net/php.internals/113981)
 
