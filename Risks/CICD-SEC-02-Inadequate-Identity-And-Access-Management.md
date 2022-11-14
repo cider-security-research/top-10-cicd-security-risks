@@ -27,7 +27,7 @@ Some of the major concerns and challenges around identity and access management 
 
 ## Impact
 
-The existence of hundreds (or sometimes thousands) of identities - both human and programmatic - across the CI/CD ecosystem, paired with a lack of strong identity and access management practices and common usage of overly permissive accounts, leads to a state where compromising nearly any user account on any system, could grant powerful capabilities to the environment, and could serve as a segway into the production environment.
+The existence of hundreds (or sometimes thousands) of identities - both human and programmatic - across the CI/CD ecosystem, paired with a lack of strong identity and access management practices and common usage of overly permissive accounts, leads to a state where compromising nearly any user account on any system, could grant powerful capabilities to the environment, and could serve as a segue into the production environment.
 
 
 ## Recommendations
