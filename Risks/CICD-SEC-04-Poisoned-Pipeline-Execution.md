@@ -224,7 +224,7 @@ Preventing and mitigating the PPE attack vector involves multiple measures spann
 
     [https://goteleport.com/blog/hack-via-pull-request/](https://goteleport.com/blog/hack-via-pull-request/)
 
-8. This reseach shows that allowing a developer to make a 'simple' action called StartBuild (official description: "Starts running a build.") at AWS CodeBuild, can lead to an unexpected privilege escalation for the developer. The developer can abuse this action to 1) exfiltrate secrets from the pipeline, 2) poison the built artifact, and 3) run privileged commands on the deployment server. This can also happen when using 1) AWS managed IAM policies tageting the developer role for AWS CodePipeline and AWS CodeBuild, or 2) using AWS CodeStar as pipeline manager and its Contributor role.
+8. Research by Asier Rivera Fernandez showed how a PPE attack against a CI/CD environment including CodePipeline, CodeBuild and CodeDeploy services in AWS could be executed.
 
     [https://www.youtube.com/watch?v=McZBcMRxPTA](https://www.youtube.com/watch?v=McZBcMRxPTA)
-    [https://www.pwc.be/en/news-publications/2021/the-risk-of-ci-cd-pipeline-poisoning-via-codebuild-.html](https://www.pwc.be/en/news-publications/2021/the-risk-of-ci-cd-pipeline-poisoning-via-codebuild-.html)
+    [https://www.pwc.be/en/FY21/documents/AWS%20CI_CD%20technical%20article%20-%20v3.pdf](https://www.pwc.be/en/FY21/documents/AWS%20CI_CD%20technical%20article%20-%20v3.pdf)
