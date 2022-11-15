@@ -223,3 +223,8 @@ Preventing and mitigating the PPE attack vector involves multiple measures spann
 7. A vulnerability found in Teleport’s CI implementation, that allowed attackers from the internet to execute a Direct-3PE attack by creating a pull request in a public GitHub repository linked with a Drone CI pipeline, and modifying the CI configuration file to execute a malicious pipeline.
 
     [https://goteleport.com/blog/hack-via-pull-request/](https://goteleport.com/blog/hack-via-pull-request/)
+
+8. Research by Asier Rivera Fernandez showed how a PPE attack against a CI/CD environment including CodePipeline, CodeBuild and CodeDeploy services in AWS could be executed.
+
+    [https://www.youtube.com/watch?v=McZBcMRxPTA](https://www.youtube.com/watch?v=McZBcMRxPTA)
+    [https://www.pwc.be/en/FY21/documents/AWS%20CI_CD%20technical%20article%20-%20v3.pdf](https://www.pwc.be/en/FY21/documents/AWS%20CI_CD%20technical%20article%20-%20v3.pdf)
