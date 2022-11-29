@@ -42,7 +42,7 @@ We would like to thank and acknowledge all experts which took part in reviewing 
 ### Reviewers
 
 * [Iftach Ian Amit](https://twitter.com/iiamit) (Advisory CSO @ Rapid7)
-* [Jonathan Claudius](https://twitter.com/claudijd) (Director of Security Assurance @ Mozilla)
+* [Jonathan Claudius](https://twitter.com/claudijd) (CISO @ Jump Crypto)
 * [Michael Coates](https://twitter.com/_mwc) (CEO & Co-Founder @ Altitude Networks, Former CISO @ Twitter)
 * Jonathan Jaffe (CISO @ Lemonade Insurance)
 * Adrian Ludwig (Chief Trust Officer @ Atlassian)
