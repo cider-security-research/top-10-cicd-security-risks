@@ -52,3 +52,7 @@ Establish pipeline flow control mechanisms to ensure that no single entity (huma
 3. Bypassing required reviews using GitHub Actions, by [Omer Gil](https://twitter.com/omer_gil). The flaw allowed leveraging GitHub Actions to bypass the required reviews mechanism and push unreviewed code to a protected branch.
 
     [https://www.cidersecurity.io/blog/research/bypassing-required-reviews-using-github-actions/](https://www.cidersecurity.io/blog/research/bypassing-required-reviews-using-github-actions/)
+ 
+4.  On Nov. 5, 2003, [Larry McVoy noticed](https://lwn.net/Articles/57137/)  that there was a code change in the Linux Kernel CVS copy that did not have a pointer to a record of approval.  Investigation showed that the Linux Kernel change had never been approved and, stranger yet, that this change did not appear in the primary BitKeeper repository at all. Further investigation determined that someone had apparently broken in (electronically) to the Linux Kernel CVS server and inserted this change.
+
+    [https://lwn.net/Articles/57135/](https://lwn.net/Articles/57135/)
